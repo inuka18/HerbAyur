@@ -19,9 +19,23 @@ function Navbar() {
       <header className="pro-navbar">
 
         {/* LOGO */}
-        <div className="pro-nav-left">
-          <img src="/images/herbayur.jpeg" alt="logo" className="pro-logo" />
-        </div>
+      <div className="pro-nav-left">
+  <img src="/images/HerbAyurLogo.png" alt="logo" className="pro-logo" />
+
+  <h5
+    style={{
+      fontSize: "20px",
+      fontWeight: "600",
+      fontFamily: "Poppins, sans-serif",
+      margin: 0,
+      display: "flex",
+      alignItems: "center"
+    }}
+  >
+    <span style={{ color: "#1b5e20" }}>Herb</span>
+    <span style={{ color: "#66bb6a" }}>Ayur</span>
+  </h5>
+</div>
 
         {/* NAV LINKS */}
         <nav className="pro-nav-links">

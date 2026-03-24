@@ -13,6 +13,13 @@ z-index:1000;
 box-shadow:0 6px 20px rgba(0,0,0,0.08);
 }
 
+/* ALIGN LOGO + TEXT */
+.pro-nav-left{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
 /* LOGO */
 .pro-logo{
 height:55px;

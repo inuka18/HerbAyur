@@ -42,7 +42,7 @@
 .flower{
   font-size: 100px;
   top: -50px;
-  left: 30%;
+  left: 35%;
   transform: translateX(-50%);
   z-index: 5;
 
@@ -53,7 +53,7 @@
 .leaf{
   font-size: 90px;
   top: -50%;
-  left: 210px;
+  left: 225px;
   z-index: 2;
 
   animation: floatMain 4s ease-in-out infinite;
@@ -63,7 +63,7 @@
 .ginger{
   font-size: 90px;
   top: -40%;
-  right: 50px;
+  right: 35px;
   z-index: 2;
 
   animation: floatMain 4s ease-in-out infinite;
